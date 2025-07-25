@@ -1,5 +1,5 @@
 import numpy as np
-from antecedent_consequent import antecedent, consequent, fuzzylabel
+from .antecedent_consequent import antecedent, consequent, fuzzylabel
 
 class beliefrule():
 

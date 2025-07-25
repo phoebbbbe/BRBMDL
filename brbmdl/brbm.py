@@ -1,8 +1,8 @@
 import pandas as pd
-from antecedent_consequent import fuzzylabel, antecedent, consequent
-from beliefrule import beliefrule
-from fuzzylogic import *
-from training import *
+from .antecedent_consequent import fuzzylabel, antecedent, consequent
+from .beliefrule import beliefrule
+from .fuzzylogic import *
+from .training import *
 from sklearn.tree import DecisionTreeClassifier
 # from sklearn.preprocessing import LabelEncoder
 from tqdm import tqdm
